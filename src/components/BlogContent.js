@@ -3,6 +3,7 @@ import Metadata from './Metadata'
 import BlogImage from './BlogImage'
 import BlogWriteup from './BlogWriteup'
 import Tags from './Tags'
+import Comments from './Comments'
 
 const BlogContent = () => {
   return (
@@ -19,6 +20,7 @@ const BlogContent = () => {
         <hr className='mt-4 mb-2 md:mt-4 md:mb-4 border-[1px] rounded-full'/>
         <Tags/>
         <hr className='mb-4 mt-2 md:mb-4 md:mt-4 border-[1px] rounded-full'/>
+        <Comments/>
     </div>
   )
 }
