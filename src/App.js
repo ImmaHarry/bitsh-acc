@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Blog from './components/Blog';
 
 function App() {
   return (
-    <div className="text-3xl font-bold">
-      Tailwind CSS is working!
+    <div className="bg-zinc-800">
+      <Navbar />
+      <Blog />
     </div>
   );
 }
