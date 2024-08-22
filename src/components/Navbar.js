@@ -30,16 +30,16 @@ const Navbar = () => {
 
       <ul className="hidden md:flex space-x-6 lg:space-x-8 text-white font-medium">
         <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-          <a href="/">Home</a>
+          <a href="/placeholder">Home</a>
         </li>
         <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-          <a href="/">Explore</a>
+          <a href="/placeholder">Explore</a>
         </li>
         <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-          <a href="/">Trending</a>
+          <a href="/placeholder">Trending</a>
         </li>
         <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-          <a href="/">Live</a>
+          <a href="/placeholder">Live</a>
         </li>
       </ul>
       <ul className="hidden md:flex space-x-6 lg:space-x-8 text-white font-medium">
@@ -75,19 +75,19 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <ul className="absolute top-16 left-0 w-full bg-zinc-800 mx-16 text-white flex flex-col items-start space-y-4 py-4 md:hidden z-10">
           <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-            <a href="/">Home</a>
+            <a href="/placeholder">Home</a>
           </li>
           <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-            <a href="/">Explore</a>
+            <a href="/placeholder">Explore</a>
           </li>
           <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-            <a href="/">Trending</a>
+            <a href="/placeholder">Trending</a>
           </li>
           <li className="hover:text-yellow-200 cursor-pointer transition-colors duration-200 ease-linear">
-            <a href="/">Live</a>
+            <a href="/placeholder">Live</a>
           </li>
           <li className="bg-white px-4 py-1 text-zinc-800 font-bold rounded-lg shadow-lg shadow-zinc-700 hover:bg-gray-300 duration-200 ease-linear transition-colors cursor-pointer">
-            <a href="/">Sign Up</a>
+            <a href="/placeholder">Sign Up</a>
           </li>
         </ul>
       )}
